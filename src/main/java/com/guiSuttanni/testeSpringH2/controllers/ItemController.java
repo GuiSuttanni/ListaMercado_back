@@ -19,7 +19,7 @@ public class ItemController {
     }
 
     @GetMapping
-    public List<Item> getAllItems() {
+    public List<Item> getAllItems() { 
         return itemRepository.findAll();
     }
 
